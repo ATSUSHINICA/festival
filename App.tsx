@@ -91,7 +91,7 @@ export default function App() {
         <Action label="＋ NUEVO EVENTO" onPress={openNew}/>
       </>}
       {page==='form' && <>
-        <Text style={s.section}>{editing?'EDITAR EVENTO':'NUEVO EVENTO'}</Text>
+        <Text style={s.section}>{editing?'EDITAR EL EVENTO':'NUEVO EVENTO'}</Text>
         <Text style={s.subtitle}>Completa los datos. Esta demo guarda los cambios sólo en memoria.</Text>
         <View style={s.form}>
           <Text style={s.label}>ARTISTA *</Text>
